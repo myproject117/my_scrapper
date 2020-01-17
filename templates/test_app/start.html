@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<h1 align="center">News Aggregator</h1>
+<div class="container">
+<div class="jumbotron">
+<h2>Select Your Requirement</h2>
+<hr>
+
+    <h3><a href="{% url 'test_app:latestselect' %}">Latest</a></h3>
+<h3><a href="{% url 'test_app:sportsselect' %}">Sports</a></h3>
+<h3><a href="{% url 'test_app:entertainselect' %}">Entertainment</a></h3>
+<h3><a href="{% url 'test_app:polityselect' %}">Politics</a></h3>
+</div>
+</div>
+</body>
+</html>
